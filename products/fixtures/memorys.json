@@ -1,0 +1,106 @@
+[
+  {
+    "pk": 1,
+    "model": "products.memory",
+    "fields": {
+      "name": "120 GB",
+      "friendly_name": "125 GB"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.memory",
+    "fields": {
+      "name": "250 GB",
+      "friendly_name": "250 GB"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.memory",
+    "fields": {
+      "name": "500 GB",
+      "friendly_name": "500 GB"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.memory",
+    "fields": {
+      "name": "960 GB",
+      "friendly_name": "960 GB"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.memory",
+    "fields": {
+      "name": "1 TB",
+      "friendly_name": "1 TB "
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.memory",
+    "fields": {
+      "name": "1.92 TB",
+      "friendly_name": "1.92 TB"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.memory",
+    "fields": {
+      "name": "2 TB",
+      "friendly_name": "2 TB"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.memory",
+    "fields": {
+      "name": "3.84 TB",
+      "friendly_name": "3.84 TB"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.memory",
+    "fields": {
+      "name": "4 TB",
+      "friendly_name": "4 TB"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.memory",
+    "fields": {
+      "name": "4 TB",
+      "friendly_name": "4 TB"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.memory",
+    "fields": {
+      "name": "6 TB",
+      "friendly_name": "6 TB"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.memory",
+    "fields": {
+      "name": "7.68 TB",
+      "friendly_name": "7.68 TB"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.memory",
+    "fields": {
+      "name": "8 TB",
+      "friendly_name": "8 TB"
+    }
+  }
+]

@@ -1,0 +1,470 @@
+[
+  {
+    "pk": 1,
+    "model": "products.brand",
+    "fields": {
+      "name": "INTEL",
+      "friendly_name": "Intel",
+      "brand_logo": "intel_logo.png",
+      "side_banner": "intel_side_banner.png",
+      "has_logo": true, 
+      "has_side_banner": true,
+      "website": "https://www.intel.com/content/www/us/en/homepage.html"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.brand",
+    "fields": {
+      "name": "AMD",
+      "friendly_name": "AMD",
+      "brand_logo": "amd_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.amd.com/en"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.brand",
+    "fields": {
+      "name": "ASUS",
+      "friendly_name": "ASUS",
+      "brand_logo": "asus_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.asus.com/"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.brand",
+    "fields": {
+      "name": "HP",
+      "friendly_name": "HP",
+      "brand_logo": "hp_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www8.hp.com/ie/en/home.html"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.brand",
+    "fields": {
+      "name": "NVIDIA",
+      "friendly_name": "NVIDIA",
+      "brand_logo": "nvidia_logo_1.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.nvidia.com/en-us/"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.brand",
+    "fields": {
+      "name": "ACER",
+      "friendly_name": "Acer",
+      "brand_logo": "acer_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.acer.com/ac/en/US/content/home"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.brand",
+    "fields": {
+      "name": "CORSAIR",
+      "friendly_name": "Corsair",
+      "brand_logo": "corsair_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.corsair.com/"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.brand",
+    "fields": {
+      "name": "GIGABYTE",
+      "friendly_name": "Gigabyte",
+      "brand_logo": "gigabyte_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.gigabyte.com/"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.brand",
+    "fields": {
+      "name": "MSI",
+      "friendly_name": "MSI",
+      "brand_logo": "msi_logo.png",
+      "side_banner": "msi_side_banner.png",
+      "has_logo": true, 
+      "has_side_banner": true,
+      "website": "https://www.msi.com/index.php"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.brand",
+    "fields": {
+      "name": "EVGA",
+      "friendly_name": "EVGA",
+      "brand_logo": "evga_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.evga.com/"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.brand",
+    "fields": {
+      "name": "PALIT",
+      "friendly_name": "Palit",
+      "brand_logo": "palit_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.palit.com/"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.brand",
+    "fields": {
+      "name": "ASROCK",
+      "friendly_name": "Asrock",
+      "brand_logo": "asrock_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "http://www.asrock.com/"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.brand",
+    "fields": {
+      "name": "SEAGATE",
+      "friendly_name": "Seagate",
+      "brand_logo": "seagate_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.seagate.com/"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.brand",
+    "fields": {
+      "name": "TOSHIBA",
+      "friendly_name": "Toshiba",
+      "brand_logo": "toshiba_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.toshiba.ie/"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.brand",
+    "fields": {
+      "name": "WESTERN DIGITAL",
+      "friendly_name": "Western Digital",
+      "brand_logo": "western_digital_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.westerndigital.com/"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.brand",
+    "fields": {
+      "name": "SAMSUNG",
+      "friendly_name": "Samsung",
+      "brand_logo": "samsung_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.samsung.com/ie/smartphones/galaxy-s21-ultra-5g/"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.brand",
+    "fields": {
+      "name": "SANDISK",
+      "friendly_name": "SanDisk",
+      "brand_logo": "sandisk_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://kb.sandisk.com/"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.brand",
+    "fields": {
+      "name": "KINGSTON",
+      "friendly_name": "Kingston",
+      "brand_logo": "kingston_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.kingston.com/"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.brand",
+    "fields": {
+      "name": "CRUCIAL",
+      "friendly_name": "Crucial",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.crucial.com/"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.brand",
+    "fields": {
+      "name": "DELL",
+      "friendly_name": "Dell",
+      "brand_logo": "dell_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.dell.com/en-us"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.brand",
+    "fields": {
+      "name": "AOC",
+      "friendly_name": "AOC",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "http://www.aoc.com/"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.brand",
+    "fields": {
+      "name": "LG ELECTRONIC",
+      "friendly_name": "LG Electronics",
+      "brand_logo": "lg_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.lg.com/us"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.brand",
+    "fields": {
+      "name": "BENQ",
+      "friendly_name": "BenQ",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.benq.com/en-us/index.html"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.brand",
+    "fields": {
+      "name": "PHILIPS",
+      "friendly_name": "Philips",
+      "brand_logo": "philips_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.philips.com/global"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.brand",
+    "fields": {
+      "name": "COOLER MASTER",
+      "friendly_name":"Cooler Master",
+      "brand_logo": "cooler_master_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.coolermaster.com/"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.brand",
+    "fields": {
+      "name": "SEASONIC",
+      "friendly_name": "Seasonic",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://seasonic.com/"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.brand",
+    "fields": {
+      "name": "BE QUIET!",
+      "friendly_name": "be quiet!",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.bequiet.com/"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.brand",
+    "fields": {
+      "name": "THERMLTAKE",
+      "friendly_name": "Thermaltake",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.thermaltake.com/"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.brand",
+    "fields": {
+      "name": "ZALMAN",
+      "friendly_name": "Zalman",
+      "brand_logo": "zelman_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.zalman.com/"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.brand",
+    "fields": {
+      "name": "LOGITECH",
+      "friendly_name": "Logitech",
+      "brand_logo": "logitech_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.logitech.com/en-roeu"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.brand",
+    "fields": {
+      "name": "MICROSOFT",
+      "friendly_name": "Microsoft",
+      "brand_logo": "microsoft_logo.png",
+      "side_banner": "",
+      "has_logo": true, 
+      "has_side_banner": false,
+      "website": "https://www.microsoft.com/en-us/"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.brand",
+    "fields": {
+      "name": "PICTEK",
+      "friendly_name": "PICTEK",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.ipictek.com/"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.brand",
+    "fields": {
+      "name": "TRUST",
+      "friendly_name": "Trust",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.trust.com/en/"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.brand",
+    "fields": {
+      "name": "TECKNET",
+      "friendly_name": "TECKNET",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "http://www.tecknet.co.uk/"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.brand",
+    "fields": {
+      "name": "ARCTIC",
+      "friendly_name": "ARCTIC",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.arctic.de/en/cooling"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.brand",
+    "fields": {
+      "name": "LC-POWER",
+      "friendly_name": "LC-Power",
+      "brand_logo": "",
+      "side_banner": "",
+      "has_logo": false, 
+      "has_side_banner": false,
+      "website": "https://www.lc-power.com/en/home/"
+    }
+  }
+]

@@ -13,7 +13,23 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <div class="col-lg-2 d-none d-lg-block d-xl-block text-center mt-5">
+                <!-- DUMP 1 -->
+                {% if product.has_side_banner %}
+                    {% with product.has_side_banner as b %}
+                        {% if b %}
+                            <img src="{{ product.side_banner.url }}" class="rounded-3" alt="brand side banner">
+                        {% endif %}
+                    {% endwith %}
+                {% else %}
+                    {% with product.brand.has_side_banner as b %}
+                        {% if b %}
+                            <img src="{{ product.brand.side_banner.url }}" class="rounded-3" alt="brand side banner">
+                        {% endif %}
+                    {% endwith %}
+                {% endif %}
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
                 <div class="image-container my-5">
                     {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank">
@@ -28,8 +44,41 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
-                    <p class="mb-0">{{ product.name }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                    <p class="font-weight-bold text-center">{{ product.name }}</p>
+                    {% if product.memory_size %}
+                        <p class="mb-0">Size : {{ product.memory_size }}</p>
+                    {% endif %}
+                    <!-- Dump 2 -->
+                    <div class="row">
+                        {% with product.brand.has_logo as l %}
+                            {% if l %}
+                                <div class="col-4 mx-auto">
+                                    <a href="{{ product.brand.website }}"           target="_blank">
+                                        <img src="{{ product.brand.brand_logo.url }}" class=" brand-logo rounded-3" alt="brand-logo">
+                                    </a>
+                                </div>
+                                {% if product.manufacturer_logo %}
+                                    <div class="col-4 mx-auto">
+                                        <a href="{{ product.manufacturer_logo.brand.website }}" target="_blank">
+                                            <img src="{{ product.manufacturer_logo.brand_logo.url }}" class=" brand-logo rounded-3" alt="brand-logo">
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                {% if product.processor_brand %}
+                                    <div class="col-4 mx-auto">
+                                        <a href="{{ product.brand.website }}" target="_blank">
+                                            <img src="{{ product.processor_brand.brand_logo.url }}" class=" brand-logo rounded-3" alt="brand-logo">
+                                        </a>
+                                    </div>
+                                {% endif %}
+                            {% else %}
+                                <div class="col-12">
+                                    <p class="text-left">Brand : {{product.brand.friendly_name}}</p>
+                                </div>
+                            {% endif %}
+                        {% endwith %}
+                    </div>     
+                    <p class="lead mb-0 text-left text-danger font-weight-bold">${{ product.price }}</p>
                     {% if product.category %}
                     <p class="small mt-1 mb-0">
                         <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -48,7 +97,31 @@
                             <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                         </small>
                     {% endif %}
-                    <p class="mt-3">{{ product.description }}</p>
+                    
+                    <!-- {% if product.key_features %}
+                        <li  class="mt-3">{{ product.key_feature_1 }}</li>
+                    {% endif %} -->
+                    <p class="mt-3">Key Features:</p>
+
+                    <li  class="mt-3">{{ product.key_features.feature_1 }}</li>
+                    <li  class="mt-3">{{  product.key_features.feature_2 }}</li>
+                    <li  class="mt-3">{{  product.key_features.feature_3 }}</li>
+                    <li  class="mt-3">{{  product.key_features.feature_4 }}</li>
+                    <li  class="mt-3">{{  product.key_features.feature_5 }}</li>
+                    
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 text-center mt-2">
+                                <a class="text-primary" href="#product-description">Detail</a>
+                                </small>
+                            </div>
+                            <div class="col-6 text-center mt-2">
+                                <a class="text-primary" href="">Specification</a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
@@ -107,6 +180,30 @@
                         </div>
                     </form>
                 </div>
+            </div>
+            <div class="col-lg-2 d-none d-lg-block d-xl-block text-center mt-5">
+                {% if product.has_side_banner %}
+                    {% with product.has_side_banner as b %}
+                        {% if b %}
+                            <img src="{{ product.side_banner.url }}" class="rounded-3" alt="brand side banner">
+                        {% endif %}
+                    {% endwith %}
+                {% else %}
+                    {% with product.brand.has_side_banner as b %}
+                        {% if b %}
+                            <img src="{{ product.brand.side_banner.url }}" class="rounded-3" alt="brand side banner">
+                        {% endif %}
+                    {% endwith %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div id="product-description" class="col-sm-12 col-md-6 text-center">
+                <p>Product Description :</p>
+                {{ product.description }}
+            </div>
+            <div class="col-sm-12 col-md-6 text-center">
+                <p> Specification :</p>
             </div>
         </div>
     </div>
